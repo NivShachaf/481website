@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+.carousel, .item, .active {
+  height:100%;
+  background-color: #CCC;
+}
+
+.carousel-inner {
+  height:100%;
+}
+
+.carousel-caption {
+  color: #000;
+  text-shadow: none;
+}
