@@ -1,21 +1,43 @@
 html, body {
-  height: 100%;
+  	height: 100%;
 }
 
 .carousel, .item, .active {
-  height:100%;
-  background-color: #CCC;
+  	height:100%;
+  	background-color: #CCC;
 }
 
 .carousel-inner {
-  height:100%;
+  	height:100%;
 }
 
 .carousel-caption {
-  color: #000;
-  text-shadow: none;
+  	color: #000;
+  	text-shadow: none;
 }
 .page-header{
-  text-align: center;
-  color: #FFF;
+  	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+  	color: #FFF;
+}
+.titleColor{
+  	color: #FFF;
+}	
+.fontSmall{
+	font-size: 85%;
+	color: #000000;
+}
+.crimsonColor{
+	color: #DC143C;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: bold;
+}
+.text-right{
+	color: #FFFFFF;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight: bolder;
+}
+.scrollable{
+	height: 100%;
+	overflow: scroll;
 }
