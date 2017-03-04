@@ -1,43 +1,78 @@
+@font-face {
+  font-family: "AUdimat Mono";
+  src: url('fonts/AUdimat-mono.TTF');
+}
+
 html, body {
-  	height: 100%;
+  height: 100vh;
+  background-color: #4C5B5C;
 }
 
 .carousel, .item, .active {
-  	height:100%;
-  	background-color: #CCC;
+  height: 100%;
+  min-height: 100%;
 }
 
 .carousel-inner {
-  	height:100%;
+  min-height: 100%;
+  background-color: #3E6680;
 }
 
 .carousel-caption {
-  	color: #000;
-  	text-shadow: none;
+  color: #000;
+  text-shadow: none;
+  position: initial;
 }
-.page-header{
-  	text-align: center;
-	font-family: "Times New Roman", Times, serif;
-  	color: #FFF;
+
+.carousel-indicators {
+  bottom: null;
 }
-.titleColor{
-  	color: #FFF;
-}	
-.fontSmall{
-	font-size: 85%;
-	color: #000000;
+
+.carousel-control {
+  transform: translateY(-50%);
+  top: 50%;
+  position: fixed;
+  background-image: none !important;
 }
-.crimsonColor{
-	color: #DC143C;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
+
+.right.carousel-control {
+  text-shadow: 5px 0 15px black;
 }
-.text-right{
-	color: #FFFFFF;
-	font-family:"Arial Black", Gadget, sans-serif;
-	font-weight: bolder;
+
+.left.carousel-control {
+  text-shadow: -5px 0 15px black;
 }
+
+.page-header {
+  text-align: center;
+  font-family: "AUdimat Mono", Monaco, Courier, monospace;
+  color: #FFF;
+  text-shadow: 2px 0 2px #4C5B5C;
+}
+
+h3.page-header {
+  border-bottom: none;
+}
+
+.font-small {
+  color: #FFF;
+  font-family: Monaco, monospace;
+  text-align: justify;
+}
+
+.crimsonColor {
+  color: #DC143C;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+}
+
+.text-right {
+  color: #FFFFFF;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: bolder;
+}
+
 .scrollable{
-	height: 100%;
-	overflow: scroll;
+  height: 100%;
+  overflow: scroll;
 }
