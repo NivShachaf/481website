@@ -24,12 +24,6 @@
   </head>
   <body>
     <div id="carousel-full" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-full" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-full" data-slide-to="1"></li>
-      </ol>
-
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -40,89 +34,98 @@
             </h1>
             <div class="container">
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="col-sm-4">
                   <h3 class="page-header">
                     Welcome to Lots of Lines
                   </h3>
                   <img src="screenshot1.png" class="img-thumbnail" alt="Responsive image">
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="col-sm-4">
                   <h3 class="page-header">
                     Information
                   </h3>
-                  <p class="fontSmall">
+                  <p class="font-small">
                     What is Lots of Lines? Lots of Lines is a data visualization application designed to display multidimensional data in a lossless format. Individuals can push spreadsheet data to the visualization application, which will draw the provided data using 4 visualization methods. Users can then interact with the provided dataset by coloring subsets of interest, hiding outliers and animating vectors as a function of time. Lots of Lines provides a toolset which users may explore their data, quickly discovering and tagging trends and outliers.
                   </p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="col-sm-4">
                   <h3 class="page-header">
                     The Team
                   </h3>
-                  <div class="col-md-6">
-                    <p class="crimsonColor">Intructor:<p>
-                    <p class="crimsonColor">Team Leader:</p>
-                    <p class="crimsonColor">Lead Developer:</p>
-                    <p class="crimsonColor">Web Developer:</p>
-                  </div>
-                  <div class="col-md-6">
-                    <p class="text-right"> Dr. Boris K<p>                    
-                    <p class="text-right">Tanner Mickelson</p>
-                    <p class="text-right">Herman Fassett</p>
-                    <p class="text-right">Niv Shachaf</p>
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <p class="crimsonColor">Instructor:<p>
+                      <p class="crimsonColor">Team Leader:</p>
+                      <p class="crimsonColor">Lead Developer:</p>
+                      <p class="crimsonColor">Web Developer:</p>
+                    </div>
+                    <div class="col-xs-6">
+                      <p class="text-right"> Dr. Boris K<p>
+                      <p class="text-right">Tanner Mickelson</p>
+                      <p class="text-right">Herman Fassett</p>
+                      <p class="text-right">Niv Shachaf</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-caption">
-            <p>
-              For more information, please visit our github repository with the More Info button below!  
-            </p>
-            <a class="btn btn-default bt-lg" href="https://github.com/DarthCoder117/Lots-of-Lines">
-              More Info
+            <a class="btn btn-default" href="https://github.com/DarthCoder117/Lots-of-Lines">
+              Source Code
             </a>
-            <hr>
+            <a class="btn btn-info" href="#carousel-full" role="button" data-slide="next">
+              More Info...
+            </a>
           </div>
         </div>
         <div class="item">
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-          <h1 class="page-header">
-            Manual
-          </h1>
           <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <h3 class="page-header">
-                  Documentation
-                </h3>
-                <p class="fontSmall">
-                  This is where we put the documentation.
-                </p>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <h3 class="page-header">
-                  Downloads
-                </h3>
-                <p class="fontSmall">
-                  This is where we would put the info of the specific download.
-                </p> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                  <!--This needs to be left blank -->
+            <h1 class="page-header">
+              Manual
+            </h1>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <h3 class="page-header">
+                    Documentation
+                  </h3>
+                  <p class="font-small">
+                    This is where we put the documentation.
+                  </p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-                  <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <h3 class="page-header">
+                    Downloads
+                  </h3>
+                  <p class="font-small">
+                    Browse the latest releases of the Lots of Lines application.
+                  </p>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <!--This needs to be left blank -->
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+                    <a href="https://github.com/DarthCoder117/Lots-of-Lines/releases" class="btn btn-primary">
                       Download
-                  </button> 
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>            
-          </div>
-          <div class="carousel-caption">
+            </div>
+            <div class="carousel-caption">
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Controls --
+      <!-- Indicators
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-full" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-full" data-slide-to="1"></li>
+      </ol> -->
+
+      <!-- Carousel Controls -->
       <a class="left carousel-control" href="#carousel-full" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -130,7 +133,7 @@
       <a class="right carousel-control" href="#carousel-full" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-      </a-->
+      </a>
     </div>
 
     <!-- Load script -->
